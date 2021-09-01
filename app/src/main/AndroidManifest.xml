@@ -1,21 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.akj.dropby" >
+    package="com.akj.dropby">
     <!-- 현재 위치를 위한 권한 요청 -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 인터넷 사용 권한 요청. 최신 버전에서도 런타임에 체크할 필요 없음 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Dropby"
+        android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:usesCleartextTraffic="true" >
+        android:theme="@style/Theme.AppCompat"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".MainActivity">
 
-        <!-- 구글 클라우드 플랫폼에서 발급받은 API 키를 여기에 -->
+            </activity>
+        <activity
+            android:name=".AddActivity"
+            android:exported="true"
+            android:theme="@style/FullScreenTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".PublicPage"
+            android:theme="@style/FullScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- 구글 클라우드 플랫폼에서 발급받은 API 키를 여기에 -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyB5IISaF7hHqvGqH2GGsD9GzXp5zV93OA0" /> <!-- 구글 플레이 서비스 버전을 적는 곳으로 그대로 타이핑 -->
@@ -25,13 +44,6 @@
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
-    <activity android:name=".PublicPage">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN"/>
-            <category android:name="android.intent.category.LAUNCHER"/>
-        </intent-filter>
-    </activity>
     </application>
-
 
 </manifest>

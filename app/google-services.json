@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "645534395100",
+    "project_id": "dropby-cbde2",
+    "storage_bucket": "dropby-cbde2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645534395100:android:600e535fc364ae55106219",
+        "android_client_info": {
+          "package_name": "com.akj.dropby"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645534395100-6rp3su1u72cm28ea7gc47urgd8qomd0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akj.dropby",
+            "certificate_hash": "cf616b09a9fc6d0d3a6195b0ff6c8aa32af8ebcf"
+          }
+        },
+        {
+          "client_id": "645534395100-ehcnmrmkqjq0tqmq292n4qbvm1a11cee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDayrttILlYtSdbK0hnvjG4wQuzlvqWRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645534395100-ehcnmrmkqjq0tqmq292n4qbvm1a11cee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

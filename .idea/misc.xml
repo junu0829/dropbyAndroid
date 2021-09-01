@@ -3,8 +3,35 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.13541666666666666" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/drawable/ic__2.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/drawable/ic___11.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/drawable/ic___7.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/drawable/ic_cloud.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14114583333333333" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/drawable/ic_mylobu.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/drawable/ic_mylocation.xml" value="0.152" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/drawable/ic_mylocationbutton.xml" value="0.1" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/drawable/ic_selectdrop.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/layout/activity_add.xml" value="0.264" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/layout/activity_auth.xml" value="0.264" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/layout/activity_item_main.xml" value="0.1140625" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/layout/activity_log_in.xml" value="0.16" />
         <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
-        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/layout/activity_public_page.xml" value="0.11510416666666666" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/layout/activity_menu_add.xml" value="0.1296875" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/layout/activity_my_application.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/layout/activity_public_page.xml" value="0.125" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/layout/activity_public_page2.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/layout/card_backgroudn.xml" value="0.12273550724637682" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/layout/card_background.xml" value="0.12273550724637682" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/layout/dropbox.xml" value="0.30726256983240224" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/layout/indivdrop.xml" value="0.6" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/layout/map.xml" value="0.1296875" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/layout/publicpage.xml" value="0.264" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/menu/add.xml" value="0.264" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/menu/main.xml" value="0.264" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/wnsn0/dropby/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14583333333333334" />
       </map>
     </option>
   </component>
